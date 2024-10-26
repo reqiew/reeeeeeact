@@ -1,0 +1,62 @@
+.Head{
+    background: url('./assets/IMAGE.png') no-repeat center center fixed;
+    height: 900px;
+    width: 100%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 70%;
+
+}
+.tophead{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.mid{
+    display: flex;
+    gap: 1em;
+}
+.tophead a{
+    text-decoration: none;
+    color:white ;
+    font-size:17px;
+}
+.left{
+   position: relative;
+   left: 40%;
+   display: flex;
+   gap: 1em;
+}
+.foodtrash{
+    position: relative;
+    right: 30%;
+}
+.foodtrash button{
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(223, 255, 132, 1) ;
+    border-radius: 40px;
+    padding: 5px 10px 5px 10px;
+    border: inherit;
+    font-size: 14px;
+}
+.foodtrash{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+}
+.foodtrash h1{
+    font-size: 80px;
+}
+.foodtrash h2{
+    font-size: 25px;
+}

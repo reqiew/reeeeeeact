@@ -1,0 +1,50 @@
+.sec3{
+    width: 100%;
+    height: 900px;
+    background-color: rgba(50, 112, 82, 1);
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+}
+.left1{
+    position: relative;
+    width: 60%;
+    height: 900px;
+}
+.atac{
+    background-image:url('./assets/trashhhh.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom left;
+    width: 400px;
+    height: 900px;
+    position: relative;
+    
+}
+.left1 img{
+    background-attachment: fixed;
+}
+.right1{
+    width: 50%;
+    position: relative;
+    right: 15%;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    height: 900px;
+    justify-content: center;
+    color: rgba(254, 252, 245, 1);
+}
+.right1 h1{
+    font-size: 120px;
+}
+.right1 p{
+    font-size: 40px;
+}
+.right1 button{
+    width: 200px;
+    height: 50px;
+    border: inherit;
+    border-radius: 50px;
+    background-color: rgba(223, 255, 132, 1);
+}

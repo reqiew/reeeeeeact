@@ -1,0 +1,70 @@
+.sec4{
+    width: 100%;
+    height: 900px;
+    background-color: rgba(248, 244, 235, 1);
+}
+.topbox{
+    display: flex;
+    width: 100%;
+    height: 150px;
+    align-items: center;
+    justify-content: space-around;
+}
+.topbox h1{
+    color:rgba(78, 38, 13, 1);
+    font-size: 40px;
+    width: 450px;
+    text-align: center;
+}
+.pluss{
+    color: rgba(0, 148, 94, 1);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 15px;
+}
+.minitopbox{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    
+}
+.minitopbox h2{
+    font-size: 20px;
+    color:rgba(78, 38, 13, 1);
+}
+.picmid{
+    background-image: url(./assets/back.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 750px;
+
+    display: flex;
+    justify-content: end;
+}
+.midboxx{
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    position: relative;
+    right: 5%;
+    top: 5%;
+
+}
+.midboxx h3{
+    width: 800px;
+    font-size: 30px;
+}
+.midboxx button{
+    width: 200px;
+    height: 40px;
+    border: inherit;
+    border-radius: 50px;
+    background-color: rgba(0, 148, 94, 1);
+}
+.midboxx a{
+    text-decoration: none;
+    color: white;
+}

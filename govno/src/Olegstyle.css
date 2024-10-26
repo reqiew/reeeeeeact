@@ -1,0 +1,63 @@
+.sec2{
+    background-color: rgba(223, 237, 221, 1);
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.lef{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    
+}
+.cont1{
+    display: flex;
+
+}
+.lef h1{
+    color:rgba(78, 38, 13, 1) ;
+    font-size: 70px;
+}
+.lef h2{
+    color:rgba(78, 38, 13, 1) ;
+    font-size: 25px;
+}
+.num{
+    width: 20px;
+    height: 20px;
+    background-color: rgba(78, 38, 13, 1);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.rig{
+    display: flex;
+    align-items: center;
+}
+.minilef{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: rgba(78, 38, 13, 1);
+    font-size: 18px;
+}
+.cont1{
+    display: flex;
+    gap: 5px;
+}
+
+.sec2 button{
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    border: inherit;
+    background-color:rgba(0, 148, 94, 1) ;
+    color: white;
+    font-size: 15px;
+}
